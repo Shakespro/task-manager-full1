@@ -1,1 +1,2 @@
-web: python apps.py 
+web: gunicorn django-react-app.wsgi:application
+
